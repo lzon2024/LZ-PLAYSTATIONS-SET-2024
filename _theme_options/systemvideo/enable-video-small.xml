@@ -1,62 +1,62 @@
-<!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
--->
+
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
           <video name="system_video" extra="true">
-               <maxSize>0.225 0.338</maxSize>
-               <size ifSubset="aspect-ratio:4-3|5-4">0.22 0.22</size>
+               <size>0.279 0.21</size>
                <effect>none</effect>
                <roundCorners>0</roundCorners>
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
                <showSnapshotDelay>false</showSnapshotDelay>
+               <default>./../../_theme_inc/videos/no-video.mp4</default>
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
-               <delay>0.5</delay>
-               <zIndex>70</zIndex>
+               <delay>0.0</delay>
+               <zIndex>45</zIndex>
                <audio ifSubset="video-system-audio:disable-audio">false</audio>
           </video>
 
 
           <text name="system_description" extra="true">
                <backgroundColor>ff000000</backgroundColor>
-               <size>0.54 0.305</size>
-               <fontSize>0.026</fontSize>
            </text>
 
-<!-- GRANDE -->
 
-          <video name="system_video" extra="true" ifSubset="carousel:big">
-               <pos>0.02 0.608</pos>
-               <maxSize>0.205 0.27</maxSize>
-
+          <video name="system_video" extra="true" ifSubset="carousel:big" >
+               <pos>0.492 0.110</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:big">
-               <pos>0.24 0.608</pos>
+               <size>0.430 0.220</size>
+               <fontSize>0.019</fontSize>
+               <pos>0.210 0.61</pos>
           </text>
+# -------------------------------------------------------------------------------------
 
-<!-- MEDIANO -->
-          <video name="system_video" extra="true" ifSubset="carousel:medium">
-               <pos>0.02 0.53</pos>
+          <video name="system_video" extra="true" ifSubset="carousel:medium" >
+               <pos>0.062 0.625</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:medium">
-               <pos>0.26 0.528</pos>
+               <size>0.58 0</size>
+               <pos>0.390 0.602</pos>
+               <fontSize>0.026</fontSize>
+
+
           </text>
+#--------------------------------------------------------------------------------------
 
-<!-- PEQUEÑO -->
-
-          <video name="system_video" extra="true" ifSubset="carousel:small">
-               <pos>0.02 0.52</pos>
+          <video name="system_video" extra="true" ifSubset="carousel:small" >
+               <pos>0.062 0.625</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:small">               
-               <pos>0.26 0.52</pos>
+               <size>0.54 0</size>
+               <fontSize>0.026</fontSize>
+               <pos>0.390 0.602</pos>
           </text>
 
 

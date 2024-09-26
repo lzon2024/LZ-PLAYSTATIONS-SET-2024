@@ -1,11 +1,11 @@
-<!-- Theme by pajarorrojo
+ <!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
-      <!-- CARRUSEL PEQUEÑO -->
-       <carousel name="systemcarousel">
+      <!-- CARRUSEL MEDIANO -->
+      <carousel name="systemcarousel">
          <pos>-0.675 0.112</pos>
          <size>1.750 1</size>
          <logoScale>1.377</logoScale>
@@ -41,20 +41,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <size>0.161 0.288</size>
          <fontSize>0.026</fontSize>
 
-      </text>
-
-      <text name="manufacturerName" extra="static">
-         <pos>0.165 0.17</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.165 0.17</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.066 0.17</pos>
-         <size>0.139 0.1</size>
-         <size ifSubset="aspect-ratio:16-9">0.139 0.1</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.187 0.1</size>
-         <size ifSubset="aspect-ratio:3-2">0.166 0.1</size>
-         <size ifSubset="aspect-ratio:16-10">0.156 0.1</size>
-         <size ifSubset="aspect-ratio:5-3">0.149 0.1</size>
-
-         <fontSize>0.034</fontSize>
       </text>
 
 

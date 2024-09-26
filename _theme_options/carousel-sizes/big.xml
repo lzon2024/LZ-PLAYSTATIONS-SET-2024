@@ -1,54 +1,28 @@
-<!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
--->
 <theme>
    <formatVersion>7</formatVersion>
    <view name="system">
       <!-- CARRUSEL GRANDE -->
       <carousel name="systemcarousel">
-         <logoSize>0.249</logoSize>
-         <logoScale>1.49</logoScale>
-         <scaledLogoSpacing>1.08</scaledLogoSpacing>
-         <maxLogoCount>11</maxLogoCount>
+         <origin>0 0</origin>
+         <logoScale>1.685</logoScale>
+         <logoSize>0.403</logoSize>
 
-
-         <pos>-0.523 0.111</pos>
-         <pos ifSubset="aspect-ratio:16-9">-0.515 0.111</pos>
-         <pos ifSubset="aspect-ratio:16-10">-0.583 0.111</pos>
-         <pos ifSubset="aspect-ratio:4-3">-0.849 0.109</pos>
-         <pos ifSubset="aspect-ratio:5-4">-0.918 0.110</pos>
-         <pos ifSubset="aspect-ratio:3-2">-0.646 0.111</pos>
-         <pos ifSubset="aspect-ratio:5-3">-0.57 0.111</pos>
-
-
-
-        
-         <size>1.57 1</size>
-         <size ifSubset="aspect-ratio:16-9">1.57 1</size>
-         <size ifSubset="aspect-ratio:16-10">1.73 1</size>
-         <size ifSubset="aspect-ratio:4-3">2.11 1</size>
-         <size ifSubset="aspect-ratio:5-4">2.265 1</size>
-         <size ifSubset="aspect-ratio:3-2">1.87 1</size>
-         <size ifSubset="aspect-ratio:5-3">1.69 1</size>
-
-
-
-
-
-      
-
-
-
+         <pos>-0.5094 0.0700</pos>
+         <size>1.59 0.90</size>
+         <maxLogoCount>1</maxLogoCount>
       </carousel>
 
-       <image name="marco-activo" extra="static">
+    <!-- #### TELA VERDE #### -->
+      <image name="marco-activo" extra="static">
          <origin>0 0</origin>
          <pos>0.0930 0.100</pos>
          <size>0.483 0.710</size>
          <zIndex>0</zIndex>
       </image>
+      
+   
 
-     <text name="start" extra="true">
+      <text name="start" extra="true">
          <size>0.489 0.100</size>
          <pos>-0.0094 0.790</pos>
          <fontSize>0.032</fontSize>
@@ -57,37 +31,20 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <text name="system_name" extra="true">
          <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
          <text>${system.name}</text> -->
-         <text>{system:fullName}.proper()</text>
-         <pos>0.385 0.54</pos>
-         <pos ifSubset="aspect-ratio:16-9">0.385 0.54</pos>
-         <pos ifSubset="aspect-ratio:4-3">0.36 0.54</pos>
-         <pos ifSubset="aspect-ratio:16-10">0.408 0.54</pos>
-         <pos ifSubset="aspect-ratio:3-2">0.423 0.55</pos>
-         <pos ifSubset="aspect-ratio:5-3">0.395 0.549</pos>
-         <pos ifSubset="aspect-ratio:5-4">0.375 0.55</pos>
+         <text>${system.fullName}</text>
+         <size>1.61 1.61</size>
+         <color>ff000000</color>
+         <pos>0.4930 0.57</pos>
+     
 
       </text>
 
-      <text name="fullName" extra="true">
+    <text name="fullName" extra="true">
          <pos>0.166 0.135</pos>
          <size>0 0.37</size>
          <color>ff000000</color>
          <fontSize>0.036</fontSize>
       </text>     
-
-      <text name="manufacturerName" extra="static">
-         <pos>0.166 0.22</pos>
-         <pos ifSubset="aspect-ratio:16-9|16-10">0.166 0.22</pos>
-         <pos ifSubset="aspect-ratio:4-3|5-4">0.067 0.22</pos>
-         <size>0.208 0.1</size>
-         <size ifSubset="aspect-ratio:16-9">0.208 0.1</size>
-         <size ifSubset="aspect-ratio:4-3|5-4">0.278 0.1</size>
-         <size ifSubset="aspect-ratio:16-10">0.2232 0.1</size>
-         <size ifSubset="aspect-ratio:3-2">0.247 0.1</size>
-         <size ifSubset="aspect-ratio:5-3">0.221 0.1</size>
-
-         <fontSize>0.040</fontSize>
-      </text>
 
 
    </view>
