@@ -11,7 +11,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 				
 Its heavy third-party support included Squaresoft, Taito, Konami, Capcom, and Seta. To use Satellaview, players purchased a special broadcast satellite (BS) tuner directly from St.GIGA or rented one for a six-month fee, and paid monthly subscription fees to both St.GIGA and Nintendo. It attaches to the expansion port on the bottom of the Super Famicom. 
 			</text>
-			<text lang="es,gl,ca,eu">El Satellaview fue un satmódem producido por Nintendo para la Super Famicom lanzado en 1995 únicamente en Japón. Salió al precio de ¥ 14.000 (unos 99,59 euros o dólares americanos).
+			<text lang="es,ca,eu">El Satellaview fue un satmódem producido por Nintendo para la Super Famicom lanzado en 1995 únicamente en Japón. Salió al precio de ¥ 14.000 (unos 99,59 euros o dólares americanos).
 
 Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permitía a los jugadores descargar juegos, revistas y otras formas de contenido a través de emisiones vía satélite proporcionadas por la compañía japonesa St.GIGA. Para utilizar Satellaview, los jugadores tenían que comprar un sintonizador especial de satélite (BS) directamente de St.GIGA o alquilar uno por una cuota de seis meses, y pagar cuotas mensuales de mantenimiento tanto a St.GIGA como a Nintendo.
 			</text>
@@ -22,11 +22,5 @@ Con 1 megabit de espacio de ROM y 512 kB adicionales de RAM, Satellaview permit�
 		<text name="system_name" extra="true">
 			<text>Super Famicom Satellaview</text>
 		</text>
-	</view>
-	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static">
-			<color>05a3f8</color>
-			<colorEnd>dbc416</colorEnd>
-		</image>
-	</view>
+		</view>
 </theme>

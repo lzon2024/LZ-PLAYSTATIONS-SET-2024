@@ -11,7 +11,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 With a wide variety of games for all ages and abilities, the Wii became a global success by offering an active and participatory gaming experience. Its accessibility and focus on social gaming also made it popular for gatherings and parties, attracting players of all ages and skill levels.
 			</text>
-			<text lang="es,gl">La Nintendo Wii es una consola de videojuegos revolucionaria desarrollada por Nintendo en 2006. Destaca por su enfoque innovador en el control de movimiento, utilizando el Wii Remote para permitir a los jugadores interactuar con los juegos moviendo el controlador en el aire. 
+			<text lang="es">La Nintendo Wii es una consola de videojuegos revolucionaria desarrollada por Nintendo en 2006. Destaca por su enfoque innovador en el control de movimiento, utilizando el Wii Remote para permitir a los jugadores interactuar con los juegos moviendo el controlador en el aire. 
 
 Con una amplia variedad de juegos para todas las edades y habilidades, la Wii se convirtió en un éxito mundial al ofrecer una experiencia de juego activa y participativa. Su accesibilidad y enfoque en el juego social también la hicieron popular para reuniones y fiestas, atrayendo a jugadores de todas las edades y niveles de habilidad. 
 			</text>
@@ -60,11 +60,5 @@ Wii拥有丰富多样的适合各个年龄和能力层次的游戏，通过提�
 		<text name="system_name" extra="true">
 			<text>Nintendo Wii</text>
 		</text>
-	</view>
-	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static">
-			<color>d8dcde</color>
-			<colorEnd>2abef5</colorEnd>
-		</image>
 	</view>
 </theme>

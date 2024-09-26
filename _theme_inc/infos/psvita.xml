@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text>The PS Vita is a handheld console released by Sony in 2011. It is the successor to the PSP and features a high-resolution 5-inch OLED touchscreen, dual analog controls, Wi-Fi and 3G connectivity, and a wide range of entertainment features such as a music and video player, web browser, and rear and front cameras.
 
 The PS Vita also allows users to download games and apps through the PlayStation Store and play online with other users through Wi-Fi or 3G connectivity. Despite being a high-quality handheld console, it did not have as much commercial success as other Sony consoles and only sold around 10 million units. It was discontinued in 2019.</text>        
-<text lang="es,gl">La PS Vita es una consola portátil lanzada por Sony en 2011. Es la sucesora de la PSP y cuenta con una pantalla táctil OLED de 5 pulgadas de alta resolución, controles duales analógicos, conectividad Wi-Fi y 3G, y una amplia gama de funciones de entretenimiento, como reproductor de música y vídeo, navegador web y cámara trasera y delantera.
+<text lang="es">La PS Vita es una consola portátil lanzada por Sony en 2011. Es la sucesora de la PSP y cuenta con una pantalla táctil OLED de 5 pulgadas de alta resolución, controles duales analógicos, conectividad Wi-Fi y 3G, y una amplia gama de funciones de entretenimiento, como reproductor de música y vídeo, navegador web y cámara trasera y delantera.
 
 La PS Vita también permite a los usuarios descargar juegos y aplicaciones a través de la PlayStation Store, y jugar en línea con otros usuarios a través de la conectividad Wi-Fi o 3G. A pesar de ser una consola portátil de alta calidad, no tuvo tanto éxito comercial como otras consolas de Sony y solo vendió alrededor de 10 millones de unidades. Dejó de fabricarse en 2019.</text>        
 <text lang="ca">PS Vita és una consola portàtil llançada per Sony el 2011. És la successora de la PSP i compta amb una pantalla tàctil OLED de 5 polzades d'alta resolució, controls duals analògics, connectivitat Wi-Fi i 3G, i una àmplia gamma de funcions d'entreteniment, com a reproductor de música i vídeo, navegador web i càmera posterior i frontal.
@@ -49,11 +49,5 @@ PS Vitaでは、PlayStation Storeからゲームやアプリをダウンロー�
 		<text name="system_name" extra="true">
 			<text>PLayStation Vita</text>
 		</text>
-	</view>
-	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static">
-			<color>00A8FB</color>
-			<colorEnd>005DBA</colorEnd>
-		</image>
 	</view>
 </theme>

@@ -9,7 +9,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text>The Nintendo DS is a handheld console released by Nintendo in 2004. It is characterized by its foldable design with two screens that is reminiscent of the Game and Watch from the 80s. With a larger upper screen and a touch-sensitive lower screen for controlling games with a stylus pen, it allowed users to interact with games in different and creative ways. It features a wide range of games, from classic Nintendo titles to third-party games of different genres.
 
 Throughout its lifespan, the Nintendo DS was updated with different models, such as the DS Lite and the Nintendo DSi, which introduced improvements in terms of design, screen, and additional features. More than 154 million units were sold worldwide, making it one of the best-selling handheld consoles in history.</text>        
-<text lang="es,gl">La Nintendo DS es una consola portátil lanzada por Nintendo en 2004. Se caracteriza por su diseño plegable de dos pantallas que recuerda a las Game and Watch de los años 80. Con una pantalla superior más grande y una inferior táctil para controlar los juegos con un lápiz stylus, permitía a los usuarios interactuar con los juegos de formas diferentes y creativas. Cuenta con una amplia gama de juegos, desde títulos clásicos de Nintendo hasta juegos de terceros de diferentes géneros
+<text lang="es">La Nintendo DS es una consola portátil lanzada por Nintendo en 2004. Se caracteriza por su diseño plegable de dos pantallas que recuerda a las Game and Watch de los años 80. Con una pantalla superior más grande y una inferior táctil para controlar los juegos con un lápiz stylus, permitía a los usuarios interactuar con los juegos de formas diferentes y creativas. Cuenta con una amplia gama de juegos, desde títulos clásicos de Nintendo hasta juegos de terceros de diferentes géneros
 
 A lo largo de su vida útil, la Nintendo DS fue actualizada con diferentes modelos, como la DS Lite y la Nintendo DSi, que presentaron mejoras en términos de diseño, pantalla y características adicionales. Se vendieron más de 154 millones de unidades en todo el mundo, lo que la convierte en una de las consolas portátiles más vendidas de la historia.</text>        
 <text lang="ca">La Nintendo DS és una consola portàtil llançada per Nintendo el 2004. Es caracteritza pel seu disseny plegable de dues pantalles que recorda les Game and Watch dels anys 80. Amb una pantalla superior més gran i una inferior tàctil per controlar els jocs amb un llapis stylus, permetia als usuaris interactuar amb els jocs de maneres diferents i creatives. Compta amb una àmplia gamma de jocs, des de títols clàssics de Nintendo fins a jocs de tercers de diferents gèneres.
@@ -48,13 +48,6 @@ Nintendo DSは、DS LiteやNintendo DSiなどのさまざまなモデルで更�
 		<text name="system_name" extra="true">
 			<text>Nintendo DS</text>
 		</text>
-	</view>
-
-	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static">
-			<color>a70404</color>
-			<colorEnd>646161</colorEnd>
-		</image>
 	</view>
 	
 </theme>

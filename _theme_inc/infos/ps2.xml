@@ -10,7 +10,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 <text>The PlayStation 2 (PS2) is a sixth-generation video game console released by Sony in 2000. It was the successor to the original PlayStation and a direct competitor to Microsoft's Xbox and Nintendo's GameCube.
 
 The PS2 was the first console to incorporate a DVD player as standard, giving it a huge advantage. In addition, it had a large number of exclusive titles, such as the Gran Turismo series, God of War, Final Fantasy and Metal Gear. It sold over 155 million units worldwide, becoming the best-selling console in history.</text>        
-<text lang="es,gl">La PlayStation 2 (PS2) es una consola de videojuegos de sexta generación lanzada por Sony en el año 2000. Fue la sucesora de la PlayStation original y la competencia directa de la Xbox de Microsoft y la GameCube de Nintendo.
+<text lang="es">La PlayStation 2 (PS2) es una consola de videojuegos de sexta generación lanzada por Sony en el año 2000. Fue la sucesora de la PlayStation original y la competencia directa de la Xbox de Microsoft y la GameCube de Nintendo.
 
 La PS2 fue la primera consola en incorporar un reproductor de DVD como estándar, lo que le dio una gran ventaja. Además, contaba con una gran cantidad de títulos exclusivos, como la serie de juegos Gran Turismo, God of War, Final Fantasy y Metal Gear. Vendió más de 155 millones de unidades en todo el mundo, convirtiéndose en la consola más vendida de la historia.</text>        
 <text lang="ca">La PlayStation 2 (PS2) és una consola de videojocs de sisena generació llançada per Sony l'any 2000. Va ser la successora de la PlayStation original i la competència directa de la Xbox de Microsoft i la GameCube de Nintendo.
@@ -47,14 +47,7 @@ PS2は、DVDプレーヤーを標準搭載した最初のコンソールであ�
 		</text>	
 
 		<text name="system_name" extra="true">
-			<text>Sony PlayStation 2</text>
+			<text>PlayStation 2</text>
 		</text>
-	</view>
-
-	<view name="system,detailed, grid">
-		<image name="linea-inferior" extra="static">
-			<color>4d1dbc</color>
-			<colorEnd>33a2e7</colorEnd>
-		</image>
 	</view>
 </theme>
