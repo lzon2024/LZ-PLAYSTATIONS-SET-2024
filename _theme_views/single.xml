@@ -150,43 +150,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
          <visible>true</visible>
       </image>
 
-      <image name="system-logo" extra="static">
-         <pos>0.91 0.18</pos>
-         <alignment>center</alignment>
-         <maxSize>0.135 0.08</maxSize>
-         <origin>0.5 0.5</origin>
-         <opacity>0.7</opacity>
-         <!--  png -->
-         <path>./_theme_inc/images/logos/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./_theme_inc/images/logos/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./_theme_inc/images/logos/${system.theme}-w.svg</path>
-         <!-- check if lang resources exist -->
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.png</path>
-         <path>./_theme_inc/images/logos/${system.theme}-${lang}.svg</path>
-         <zIndex>100</zIndex>
-         <storyboard>
-            <animation property="opacity" from="0" duration="1500" mode="easeOutCubic"/>
-         </storyboard>
-      </image>
-
-
-      <image name="system-logo" extra="static" region="eu" />
-      <image name="system-logo" extra="static" region="us">
-         <path>./_theme_inc/images/logos/us/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./_theme_inc/images/logos/us/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./../_theme_inc/images/logos/us/${system.theme}-w.svg</path>
-      </image>
-      <image name="system-logo" extra="static" region="jp">
-         <path>./_theme_inc/images/logos/jp/${system.theme}.png</path>
-         <!--  svg -->
-         <path>./../_theme_inc/images/logos/jp/${system.theme}.svg</path>
-         <!--  svg white -->
-         <path>./_theme_inc/images/logos/jp/${system.theme}-w.svg</path>
-      </image>
+      
 
 <!-- MEDIOS QUE SE MUESTRAN A LA DERECHA DE LA PANTALLA -->
 
@@ -207,7 +171,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="thumbnail-single-view" extra="true">
          <path>{game:thumbnail}</path>
          <tile>false</tile>
-         <pos>0.91 0.75</pos>
+         <pos>0.31 0.75</pos>
          <origin>0.5 0.5</origin>
          <verticalAlignment>center</verticalAlignment>
          <alignment>center</alignment>
