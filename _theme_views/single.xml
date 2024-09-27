@@ -171,29 +171,24 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
       <image name="thumbnail-single-view" extra="true">
          <path>{game:thumbnail}</path>
          <tile>false</tile>
-         <pos>0.31 0.75</pos>
+         <pos>0.31 0.55</pos>
          <origin>0.5 0.5</origin>
          <verticalAlignment>center</verticalAlignment>
          <alignment>center</alignment>
-         <maxSize>0.125 0.25</maxSize>
+         <maxSize>0.93 0.25</maxSize>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
 
-
-
-      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'">
-         <path>./../_theme_inc/images/consoles/{game:system}.png</path>
-      </image>
-      <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="jp">
-         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
-         <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
-      </image>
+     
       <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="us">
          <default>./../_theme_inc/images/consoles/{game:system}.png</default>
          <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
-      </image>         
+      </image>       
+       <image name="thumbnail-single-view" if="${system.manufacturer} == 'Collections'" region="pt">
+         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+         <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
+      </image>  
 
    </customView>
 
