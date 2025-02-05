@@ -12,7 +12,7 @@
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
                <delay>0.0</delay>
-               <zIndex>45</zIndex>
+               <zIndex>100</zIndex>
                <audio ifSubset="video-system-audio:disable-audio">false</audio>
           </video>
 
